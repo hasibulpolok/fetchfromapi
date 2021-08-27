@@ -38,9 +38,6 @@ function displayPost(post){
     console.log(post);
 }
 function displayData(newData){
-    const data = document.getElementById('data');
-    const p = document.createElement('p');
-    p.innerText = (alert('Check Console by pressing ctrl+shift+i'));
-    data.append(p);
+    alert("Check Console by pressing ctrl+shift+i");
     console.log(newData);
 }
