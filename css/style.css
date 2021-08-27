@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    padding: 0.5px;
+    
+}
+button{
+    padding:5px;
+    background-color:rgb(230, 14, 14);
+    color: white;
+    border-radius: 5px;
+    border:2px gray
+    font-size:2rem;
+}
+.main {
+    margin: 50px auto;
+    width: 60%;
+}
+
+li {
+    border: 2px solid red;
+    margin-bottom: 5px;
+}
+
+p {
+
+    font-weight: bold;
+    text-align: center;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding: 1px;
+}

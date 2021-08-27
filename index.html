@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+<body>
+    <header>
+        <h3>Fetch Data With Api</h3>
+    </header>
+    <main>
+        <div class="main">
+            <button onclick="getData()">Load Data</button>
+            <button onclick="loadUsers()">Load users</button>
+            <button onclick="loadPost()">Load Post</button>
+            <p id="data"></p>
+
+            <h2>Users Details</h2>
+            <ul style="list-style-type: number;" id="users">
+
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Hasibul Polok 2021 -
+            <script>var year = new Date(); document.write(year.getFullYear());</script>
+        </p>
+    </footer>
+
+    <script src="js/api.js"></script>
+</body>
+
+</html>
