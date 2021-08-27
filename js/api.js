@@ -3,7 +3,8 @@
 function getData(){
     fetch('https://jsonplaceholder.typicode.com/todos/1')
     .then(response => response.json())
-    .then(json => displayData(json));
+    .then(newData => displayData(newData));
+    
 }
 
 function loadUsers(){
@@ -34,10 +35,12 @@ function displayPost(post){
     p.innerText =('Check Console by pressing ctrl+shift+i');
     p.style.border = "thick solid #0000FF";
     data.append(p);
+    console.log(post);
 }
-function displayData(json){
+function displayData(newData){
     const data = document.getElementById('data');
     const p = document.createElement('p');
-    p =alert('Check Console by pressing ctrl+shift+i');
+    p.innerText = (alert('Check Console by pressing ctrl+shift+i'));
     data.append(p);
+    console.log(newData);
 }
